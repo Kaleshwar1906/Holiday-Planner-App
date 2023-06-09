@@ -1,0 +1,234 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+html, body {
+	margin: 0px;
+	height: 85%;
+}
+
+.front {
+	height: 85%;
+	width: 100%;
+	background-image: url("/images/accomodate.jpg");
+	background-color: #c0c0c0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	font-family: Audiowide;
+}
+
+.front .top-nav {
+	background: rgba(2, 2, 2, 0.2);
+}
+
+.top-nav {
+	height: 100px;
+}
+
+.top-nav a, h2 {
+	display: inline;
+	float: left;
+	color: #f0f0f0;
+}
+
+.top-nav h2 {
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-right: 480px;
+	font-size-adjust: inherit;
+}
+
+a:hover {
+	color: #3366cc;
+}
+
+.logo {
+	height: 80px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.links {
+	padding-top: 20px;
+}
+
+.links a {
+	padding-right: 22px;
+}
+
+.links a:hover {
+	color: #007dfb;
+	text-shadow: green;
+}
+
+.hero-text {
+	padding-top: 10px;
+	font-family: Belgrano;
+	font-stretch: ultra-expanded;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	height: 100%;
+}
+
+h4 {
+	color: #bfbfbf;
+}
+
+.footer {
+	background-color: #26272b;
+	padding: 10px;
+	font-size: 15px;
+	line-height: 24px;
+	height: 35%;
+	color: #737373;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+.footer a {
+	color: #737373;
+}
+
+.footer a:hover {
+	color: #3366cc;
+}
+
+.footer h6 {
+	color: #fff;
+	font-size: 16px;
+	margin-top: 5px;
+	letter-spacing: 2px
+}
+
+.links1 {
+	padding-left: 0;
+	list-style: none;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.left {
+	width: 50%;
+	padding-left: 30px;
+	padding-right: 60px;
+}
+
+.middle, .right {
+	width: 20%;
+}
+
+.row:after {
+	content: "";
+	display: "table";
+	clear: both;
+}
+
+.about {
+	color: #737373;
+	font-family: Audiowide;
+}
+
+.about1 {
+	color: #fff;
+	font-family: Belgrano;
+}
+
+.copy-column {
+	background-color: #26272b;
+	padding-left: 0px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.title {
+	font-family: Arvo;
+	font-size: 1.8em;
+	font-weight: bolder;
+	font-stretch: ultra-expanded;
+	letter-spacing: 3px;
+	margin: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #808080;
+}
+
+.arriving, .trending {
+	height: 50%;
+	width: 100%;
+	padding-bottom: 75px;
+}
+
+.fig {
+	height: 250px;
+	width: 350px;
+}
+
+.col1 {
+	float: left;
+	width: 29%;
+	padding-left: 50px;
+	border-color: black;
+}
+
+.text {
+	font-family: Audiowide;
+	font-size: x-large;
+	margin-left: 110px;
+	color: #646464;
+}
+
+hr {
+	margin-top: 20px;
+	width: 80%;
+	color: #b1b1b1;
+	background-color: lime;
+}
+
+/* body of the page */
+.loc {
+	margin: 60px 30px;
+	height: 60%;
+}
+
+.column1 {
+	float: left;
+	width: 32%;
+}
+
+h1, p {
+	font-family: Belgrano;
+}
+
+.column2 a {
+	padding: 5px 10px 5px 10px;
+	background-color: #0000ff;
+	color: #c8c8c8;
+}
+
+.view-nav {
+	margin: 60px 30px;
+	height: 20%;
+}
+
+.view {
+	float: left;
+	width: 20%;
+	border: 2px solid red;
+	margin-left: 500px;
+	text-align: center;
+}
+
+.view:hover {
+	font-size: 1.2em;
+}
